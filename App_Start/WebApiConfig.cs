@@ -17,7 +17,7 @@ namespace CryptMessage
             config.DependencyResolver = new UnityResolver(container);
 
             // Web API configuration and services
-            config.EnableCors();
+            //config.EnableCors();
             // Web API routes
             config.MapHttpAttributeRoutes();
 

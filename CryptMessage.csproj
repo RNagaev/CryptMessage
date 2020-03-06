@@ -102,6 +102,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="react-app\dist\bundle.js" />
+    <Content Include="react-app\dist\index.html" />
+    <Content Include="react-app\src\components\App.js" />
+    <Content Include="react-app\src\index.html" />
+    <Content Include="react-app\src\index.js" />
+    <Content Include="react-app\src\styles\App.css" />
+    <Content Include="react-app\src\styles\Litera\bootstrap.min.css" />
+    <Content Include="webpack.config.js" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
@@ -121,6 +129,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="react-app\.babelrc" />
+    <Content Include="react-app\package-lock.json" />
+    <Content Include="react-app\package.json" />
+    <Content Include="react-app\react-boilerplate-ws.code-workspace" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

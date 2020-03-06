@@ -9,7 +9,7 @@ using System.Web.Http.Cors;
 
 namespace CryptMessage.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    //[EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CryptController : ApiController, IBaseApiController
     {
         IRepository<SymbolRow> _repository;
